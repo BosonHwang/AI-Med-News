@@ -3,44 +3,48 @@
 ## 领域历史知识摘要
 
 ### 当前阶段判断
-医疗 AI 已进入"平台整合 + 开放生态双向竞速期"：科技巨头（Microsoft、Google）持续通过深度合作与生态并购锁定医疗 AI 入口，头部肿瘤/病理 AI 公司（Tempus）转向开源联盟策略争夺标准制定权；与此同时，AI 药物发现从"工具辅助"迈向"吸入/口服双线 Phase III"，疗效兑现时间窗口逼近。
+医疗 AI 已从"实验性试点"进入"常规部署与代理化竞速期"：EHR 巨头（Epic、Oracle）主导代理式临床工作流大规模落地，科技平台（Microsoft、Google）深度绑定顶级医院，监管政策在特朗普政府下向创新明显松绑，AI 诊断处方权争议已上升为联邦政治议题。
 
 ### 主要趋势（5条）
 
-1. **AI 医疗基础设施从点状整合走向生态联盟**：Tempus AI 联合 Yale New Haven Health 和 MSK 于 6 月 3 日发起 IMS 开源数字病理联盟，将 Paige 影像管理系统全面开源；同期 Microsoft Build 2026 宣布 Causaly（药物发现）和 Cortechs.ai（神经影像）双向合作，构建 Azure 医疗 AI 生态矩阵。开源联盟与专有平台并行，成为头部玩家争夺标准制定权的新策略。
+1. **代理 AI 全面渗透 EHR，规模化落地指标公开**：Epic 在 HIMSS26 发布 Agent Factory 无代码平台，Art/Penny/Emmie 三大代理分别将早期肺癌检出率提升至 69%（全国均值 46%）、缩短事前授权提交时间 42%、减少账单客服消息 58%；截至 2026 年初 85% 的 Epic 客户已上线生成 AI；美国退伍军人事务部（VA）将 AI 环境记录扩展至全美所有 VA 医疗中心，成为美国史上最大规模政府医疗 AI 部署。
 
-2. **自主 AI 代理向行政与临床双端渗透**：ARPA-H ADVOCATE 于 6 月完成首批团队遴选，将自主心血管临床代理推向 FDA 授权轨道；Amperos Health 的 AI 原生拒付管理平台（已服务 3,000+ 临床机构，年回收 7 亿美元）和 UnitedHealth $15 亿 AI 年度投入（96% 授权首次通过率）显示行政 AI 代理已率先规模化落地，临床代理紧随其后。
+2. **AI 医疗基础设施从点状整合走向生态联盟与平台竞争**：Tempus AI 联合 Yale New Haven Health 和 MSK 发起 IMS 开源数字病理联盟；Microsoft Build 2026 宣布 Causaly + Cortechs.ai 双向合作；Tempus xT CDx 获 FDA 批准肿瘤单样本伴随诊断（首家双模式认证实验室，股价+6%）；Oracle 以"AI 原生 EHR"直接挑战 Epic 主导地位，EHR 平台竞争焦点转向 AI 原生能力。
 
-3. **AI 药物发现进入双线 Phase III 关键兑现窗口**：Insilico rentosertib 口服 Phase III 确认 H2 2026 启动，吸入剂配方同步获中国 CDE IND 批准，成为首个 AI 发现候选药物进入"直接入肺"临床路径的里程碑；全球 173 个 AI 发现药物管线中 15 个已入 Phase III，2026 年将迎来首批 Phase III 读数，是十年 AI 药物发现投资的最终检验节点。
+3. **AI 药物发现进入双线 Phase III 关键兑现窗口**：Insilico rentosertib 口服 Phase III 确认 H2 2026 启动，吸入剂获中国 CDE IND 批准（首个直接入肺 AI 候选药物）；173 个 AI 发现药物管线中 15 个已进入 Phase III；IQVIA.ai 统一代理平台向前 20 大药企部署 150+ 临床试验代理，AI 驱动试验启动加速。
 
-4. **顶级医院与科技巨头深度共建专属医疗 AI 模型**：Mayo Clinic + Microsoft 于 6 月 2 日宣布共建 Mayo 所有的前沿医疗 AI 模型，通过 Azure Foundry API 向全球开放；Harvard/BIDMC 研究证明 OpenAI 推理模型在真实 EHR 场景下诊断能力超越有经验医生，但研究者仍强调"人在回路"是当前安全部署的必要条件；Stanford-Harvard ARISE 报告指出 AI 辅助而非替代医生的场景收益最明确。
+4. **顶级医院 + 科技巨头共建专属前沿医疗模型，临床证据积累加速**：Mayo Clinic + Microsoft 共建 Mayo 所有的前沿医疗 AI 模型，通过 Azure Foundry API 向全球开放；Stanford-Harvard ARISE 《2026 年临床 AI 状态报告》证实临床 AI 已进入常规部署，"AI 辅助而非替代临床医生"的场景收益最为确定；Harvard/BIDMC 研究证明 OpenAI 推理模型真实 EHR 诊断超越有经验医生，"人在回路"仍是安全前提。
 
-5. **医疗 AI 投资规模化：Q1 2026 创纪录，M&A 浪潮驱动整合**：2026 Q1 医疗 AI 融资达 74 亿美元、诞生 8 家新独角兽，M&A 同比增长 47%（DeepHealth 以 2.69 亿美元收购 Gleamer）；Oura Ring 5 于 6 月 4 日正式发售（$399）并同步推进 IPO（估值约 110 亿美元），2026 年营收目标近 20 亿美元，临床化可穿戴 IPO 估值将成赛道定价锚点。
+5. **医疗 AI 投资多元化：量子医疗与 AI 长寿生物学成新热点**：2026 Q1 医疗 AI 融资 74 亿美元、M&A 同比增长 47%；NewLimit 完成 4.35 亿美元（AI 驱动细胞重编程抗衰老）；NVision 获雅培锚定 5500 万美元 B 轮（量子增强 MRI + 量子药物发现）；Oura Ring 5 上市同步推进 IPO（估值约 110 亿美元），临床化可穿戴成 2026 年估值锚点。
 
 ### 技术热点
-- **开源数字病理平台**：Tempus IMS Consortium 将 Paige 影像管理系统开源（FullFocus 切片查看器、FullFolio 病例管理、AI 编排模块），推动病理 AI 标准化，有望加速 FDA 仅 51 款清关病理 AI 器械的增长。
-- **多智能体自主科学发现系统**：FutureHouse Robin 发表于 Nature，端到端完成 dAMD 药物再利用（识别 ripasudil 新适应症）；JMIR 专文评述指出自主科研代理开放性任务表现出色但实验设计仍需人类科学家，需建立专用评估基准。
-- **医院专属前沿医疗模型（Domain-Specific Foundation Model）**：Mayo Clinic + Microsoft 共建模式 + Causaly/Cortechs.ai 生态合作，标志 Azure 医疗 AI 生态全面成型。
-- **临床 AI 代理（Agentic AI）**：从辅助决策向自主执行演进，Amperos 行政代理已规模化，ARPA-H ADVOCATE 临床代理开启 FDA 授权路径。
+- **EHR 代理化（Agentic EHR）**：Epic Agent Factory（无代码代理构建/编排）+ Oracle AI 原生 EHR（云端重建），临床代理从辅助决策向自主执行演进，Art/Penny/Emmie 的真实指标验证代理 ROI 正转为现实。
+- **专用医疗编码 AI 代理**：Corti Symphony 多代理框架（580 万患者数据训练），医疗编码准确率超越主流 LLM 25%+，证明专域 AI 代理通过人类专家流程复刻可大幅超越通用模型。
+- **开源数字病理平台**：Tempus IMS Consortium 将 Paige 影像管理系统开源（FullFocus、FullFolio、AI 编排），推动病理 AI 标准化。
+- **量子增强医疗成像**：NVision Polaris 通过超极化糖类实时测量实体瘤代谢，Abbott 战略入股验证量子医疗感知商业可行性，是新兴交叉技术方向。
+- **多智能体自主科学发现**：FutureHouse Robin（Nature 发表）端到端药物再利用；IQVIA.ai 150+ 代理加速临床试验全流程。
 
 ### 商业格局
-- **平台层**：Microsoft（Mayo 共建模型 + Causaly/Cortechs.ai 生态 + Dragon Copilot 77% 覆盖）与 Google DeepMind（Co-Clinician）两强争夺医院 AI 入口；UnitedHealth Optum（$15 亿 AI 投入）是最大的自建 AI 医疗保险玩家。
-- **肿瘤/病理**：Tempus AI 以开源联盟策略（IMS Consortium）争夺数字病理标准制定权，同期拓展与 Bristol Myers Squibb 的肿瘤/神经科学临床开发合作。
-- **影像 AI M&A**：DeepHealth 收购 Gleamer（$2.69 亿，700+ 医院合同）是 2026 Q1 影像 AI 整合浪潮的代表性事件。
-- **可穿戴**：Oura Ring 5 正式上市 + IPO 进程，成为临床化可穿戴赛道 2026 年估值锚点。
-- **行政 AI**：Amperos Health（拒付管理）、Waystar（RCM agentic AI）引领行政自动化，是 AI 医疗中率先规模化盈利的细分赛道。
+- **平台层**：Microsoft（Mayo 共建模型 + Causaly/Cortechs.ai + Dragon Copilot 77% 覆盖）与 Google DeepMind（Co-Clinician）争夺医院 AI 入口；Epic（85% 客户 AI 上线，Agent Factory）和 Oracle（AI 原生 EHR）主导 EHR 代理化竞争。
+- **肿瘤/病理**：Tempus AI 以 xT CDx 双模式 FDA 认证 + IMS 开源联盟双线扩张，商业护城河持续加深；DeepHealth 收购 Gleamer（$2.69 亿，700+ 医院合同）是影像 AI 整合代表性事件。
+- **政府级部署**：VA 全国 AI 环境记录是全球迄今最大单一机构医疗 AI 部署，每年覆盖数百万退伍军人就诊，为 AI 环境记录赛道验证超大规模可行性。
+- **行政与编码 AI**：Corti Symphony、Amperos Health（拒付管理）、Waystar 多玩家竞争行政自动化，该细分赛道已率先实现规模化盈利；UnitedHealth Optum $15 亿 AI 投入仍是最大自建 AI 医保玩家。
+- **量子医疗/长寿生物学**：NVision（Abbott 背书）和 NewLimit（$435M 融资）代表新兴资本热点，尚处早期商业化。
 
 ### 监管走向
-- **FDA 双轨**：AI 医疗器械累计清关 1,451 款（放射科 76%，病理仅 51 款），报销瓶颈（仅 2 个 CPT I 类代码）制约商业化；ARPA-H ADVOCATE 将建立自主临床 AI 代理 FDA 授权路径的首个范本。
-- **EU AI Act Digital Omnibus**：医疗器械 AI（Annex I）合规期延至 2028 年 8 月；"安全组件"定义缩窄，大量辅助性 AI 获得宽限。
-- **犹他州 Doctronic 试点受医疗许可委员会反弹**：AI 处方权实验遭到州级监管机构抵制，AI 自主处方的联邦政策路径进一步趋于保守。
+- **特朗普 AI 行政令（2026-06-02）**：要求前沿 AI 公司发布前 30 天自愿提交政府安全测试，建立 AI 网络安全信息交换中心，总体取向"创新优先、自愿合规"，取代拜登强制性监管框架，AI 医疗数据安全被列为联邦 AI 防御优先领域。
+- **FDA 数字健康指南松绑（2026-01）**：低风险 AI 软件和消费可穿戴豁免上市前审查，高风险诊断/治疗 AI 维持完整器械路径；FDA 专员承诺开发"更智能"AI 专项监管框架。
+- **FDA AI 器械双轨**：累计清关 1,451 款（放射科 76%，病理仅 51 款），报销仍是瓶颈（仅 2 个 CPT I 类代码）；ARPA-H ADVOCATE 将建立自主临床 AI 代理 FDA 授权首个范本。
+- **AI 处方权争议升温**：特朗普政府力推 AI 诊断开药，医生团体警告风险；犹他州 Doctronic 试点已遭州监管机构抵制，患者端 AI 记录工具的监管归属尚不明确。
+- **EU AI Act Digital Omnibus**：医疗器械 AI（Annex I）合规期延至 2028 年 8 月，"安全组件"定义缩窄，大量辅助性 AI 获宽限。
 
 ### 值得持续跟踪的信号
-- **Tempus IMS Consortium 开源生态扩展速度**：能否吸引更多顶级学术医疗中心加入，将决定开源病理 AI 平台能否成为行业标准，进而与专有竞争者（PathAI、Paige 剩余专有产品）形成标准制定竞争。
-- **rentosertib 口服 Phase III 正式启动**：H2 2026 启动后的患者入组速度和中期安全数据是当前 AI 药物发现赛道最受关注的临床节点。
-- **ARPA-H ADVOCATE 入选团队技术架构披露**：首批团队对"AI 代理安全边界"的具体选择，将决定联邦政府对自主临床 AI 的监管认知框架。
-- **Oura IPO 定价**：若维持 110 亿美元估值，将为临床化可穿戴赛道定价；若折价，医疗化叙事将受市场重新审视。
-- **FDA AI 器械报销瓶颈破局**：若 CMS 2026 年发布新 CPT 代码，将释放大量已清关影像 AI 的商业化潜力，Cortechs.ai 等脑影像 AI 厂商将直接受益。
+- **特朗普政府 AI 医生政策落地路径**：其推动 AI 诊断开药的具体立法/行政动向，是 2026 下半年医疗 AI 监管最大变量，将直接影响临床 AI 代理的自主权边界定义。
+- **rentosertib 口服 Phase III 正式启动**：H2 2026 启动后的患者入组速度和中期安全数据，是 AI 药物发现赛道当前最受关注的临床节点。
+- **Epic Agent Factory 生态扩展速度**：医疗机构自建 AI 代理的速度和质量，将决定 EHR 平台代理化进程能否跑赢专用解决方案（Corti、Amperos）。
+- **Oura IPO 定价**：若维持 110 亿美元估值，将为临床化可穿戴赛道定价；若折价，医疗化 AI 叙事将受市场重新审视。
+- **患者端 AI 记录工具的监管归属**：消费者自录就诊 AI 的 FDA 监管属性尚不明确，可能成为 2026 下半年新的政策议题。
+- **FDA AI 器械报销瓶颈破局**：若 CMS 2026 年发布新 CPT 代码，将释放大量已清关影像 AI 商业化潜力，Cortechs.ai 等脑影像 AI 厂商将直接受益。
 ## 抽象搜索特征
 
 ### 机构与人物
