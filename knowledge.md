@@ -3,44 +3,46 @@
 ## 领域历史知识摘要
 
 ### 当前阶段判断
-医疗 AI 已进入"规模化落地 + 治理反思双向加速期"：AI 疫苗设计突破人体 Phase I、代理 AI 平台商业化升级等技术里程碑与 74% 临床医生担忧去技能化、WHO 发布全球治理框架等行业忧虑同步涌现，监管机构角色从"授权批准"向"全球治理协调"演进。
+医疗 AI 已进入"全栈平台化 + 数据信任危机双轨并行期"：代理 AI 从辅助工具向自主操作系统跃升（ARPA-H ADVOCATE 联邦授权路径、Dragon Copilot 开放平台、Elation 代理 EHR）、OpenAI 推出生命科学专项模型 GPT-Rosalind，同时 Palantir NHS 数据信任丑闻揭示"AI 数据治理承诺与实际权限之间的鸿沟"正成为公共医疗 AI 最大的社会性风险。
 
 ### 主要趋势（5条）
 
-1. **AI 医疗基础设施走向 7 年级深度生态绑定**：Philips 与 WellSpan Health 于 6 月 4 日签署 7 年战略联盟（覆盖 12 家医院全模态影像 + 联合研发，Philips 担任首选供应商，是与美国社区医疗系统的首个此类研发协议）；Mayo Clinic + Microsoft 共建模型、Tempus IMS 开源联盟并行推进，健康系统与科技/设备厂商的多年期深度绑定已成头部玩家标配策略。
+1. **AI 医疗基础设施走向多年期深度生态绑定**：Philips-WellSpan 7 年联盟（6 月 4 日）是设备厂商与社区医院的首个联合研发协议范本；Microsoft Dragon Copilot 在 HIMSS 2026 升级为开放平台（日活 10 万+临床医生、9 个国家），成为第三方卫生科技公司的分发渠道；Mayo Clinic + Microsoft 定制模型并行推进，深度绑定已成头部玩家标配策略。
 
-2. **自主 AI 代理从工具升级为研发平台**：Tempus 6 月 1 日发布次代 Lens 平台，将 850 万+ 患者记录、肿瘤基础模型与 Co-scientist 代理整合为单一平台，支持自然语言提出假设并自动执行分析，已被 19/20 顶级大药企使用；Vanderbilt Health 5 月将患者端 AI（OpenAI+Azure+RAG）规模部署于门户护理路径，患者端 AI 进入头部学术医院实施阶段；ARPA-H ADVOCATE 临床代理同步推进 FDA 授权路径。
+2. **自主 AI 代理从工具跃升为"自主操作系统"**：ARPA-H ADVOCATE 于 6 月进入创新团队甄选，将建立联邦级临床代理 AI 授权路径（3 年 FDA 授权），覆盖自主调整用药/预约的患者端代理和监督代理双层架构；Elation Health 6 月 2 日收购 Aster 打造"基层医疗代理操作系统"；Tempus Lens 次代已被 19/20 顶级大药企使用；Dragon Copilot Work IQ 打通 EHR 与运营数据，代理 AI 的"自主度边界"成为监管核心议题。
 
-3. **AI 药物发现边界从小分子拓展至疫苗设计**：剑桥大学/DIOSynVax 于 6 月 5 日公布 Phase I 结果——全 AI 设计的 Sarbeco 广谱冠状病毒疫苗在 39 名受试者中安全、耐受良好，并诱导出针对 SARS-CoV-2 及多株蝙蝠冠状病毒的交叉免疫，是全球首个 AI 设计疫苗通过人体试验的历史节点；同期 Insilico rentosertib Phase 2a 完成、口服 Phase III 按计划 H2 2026 启动，全球 15 个 AI 发现药物已入 Phase III。
+3. **AI 药物发现加速进入临床验证期，专项基础模型登场**：OpenAI 6 月 7 日将 GPT-Rosalind（药物化学/基因组学/蛋白组学专项模型）开放全球受控研究访问，31% token 效率提升，合作方含 Amgen、Moderna；AI 设计疫苗（DIOSynVax Phase I 通过）、AI 发现小分子（Relay Zovegalisib Phase 3 ReDiscover-2 全球入组，11.1 月中位 PFS）、AI 发现 IPF 药物（Insilico rentosertib Phase III H2 2026 启动）三条路线同步推进，全球 AI 发现药物中 Phase III 数量增至 15+。
 
-4. **临床 AI 诊断能力实证图景趋于分化**：MGB 21 款 LLM 临床推理研究（4 月）显示所有模型早期鉴别诊断失败率超 80%，与 Harvard/BIDMC 单模型"超越医生"结论形成鲜明对照，实证基础指向"LLM 可辅助但不可替代医生独立判断"的渐进共识；Science 期刊同期发表"LLM 在医生推理任务中实现超人表现"论文，行业对 AI 诊断能力的争论进入高质量实证阶段。
+4. **临床 AI 诊断能力实证分化，AI 文档工具率先大规模盈利落地**：MGB 21 款 LLM 临床推理研究（4 月）显示早期鉴别诊断失败率超 80%，与单模型"超越医生"结论形成对照；而 AI 文档/EHR 副驾领域（Dragon Copilot）已实现 10 万+ 日活、42% 文档时间节省，成为生成式 AI 医疗场景中率先规模化的子赛道，印证"高价值低风险行政任务先于高风险临床判断任务落地"的规律。
 
-5. **AI"去技能化"风险成行业主流议题**：Wolters Kluwer 6 月 2 日调查（74% 临床医生担忧去技能化，AI 治理政策知晓率仅 27%）、Nursing Times 6 月 4 日报道护士群体高风险，以及 WHO 6 月 2 日正式发布 AI 健康政策讨论文件，标志"AI 治理滞后于采购速度"从学界关切升格为监管机构和国际组织的核心行动议题。
+5. **数据信任与 AI 治理从原则声明走向执行危机**：Palantir NHS 6 月事件（3.3 亿英镑合同因"患者数据无限访问权"泄露导致议会施压退出）是全球第一个大规模公立医疗 AI 合同因"数据信任违约"被迫叫停的案例，与 GLP-1/ASCO 2026 同期 AI 分析驱动的 11 万患者大规模研究（乳腺癌风险降低 30%）形成鲜明对比——相同数据能力，治理框架决定社会接受度。
 
 ### 技术热点
-- **全 AI 设计疫苗**：剑桥/DIOSynVax Phase I 通过，AI"超抗原"设计靶向 Sarbeco 家族，开创 AI 疫苗学新方向。
-- **Agentic 药物研发平台**：Tempus Lens 次代（850 万患者记录 + Co-scientist 代理）被 19/20 顶级大药企采用，代理 AI 由辅助工具向集成研发平台演进。
-- **患者端 AI**：Vanderbilt 将 OpenAI+Azure+RAG 落地门户患者消息系统，超越聊天机器人进入正式护理路径。
-- **开源数字病理平台**：Tempus IMS Consortium 推动 Paige 影像管理系统开源，与专有平台竞争病理 AI 标准制定权。
+- **生命科学专项 LLM**：OpenAI GPT-Rosalind 首次向全球机构开放受控访问，标志生命科学 AI 从通用大模型微调转向专项基础模型时代。
+- **全 AI 设计疫苗**：剑桥/DIOSynVax Phase I 通过，AI"超抗原"设计靶向 Sarbeco 家族，Phase II 方案筹备中。
+- **临床代理 AI 双层架构**：ARPA-H ADVOCATE 患者端代理 + 监督代理双层设计成为行业架构参考，将影响未来自主 AI 医疗器械的监管范式。
+- **消费者健康 AI 平台**：Microsoft Copilot Health（连接 50+ 可穿戴设备 + 5 万家医院记录）与 Google Health App（Gemini 驱动 + Fitbit Air）在消费者端形成双雄竞争，HIPAA 边界争议持续发酵。
 
 ### 商业格局
-- **平台层**：Microsoft（Mayo 共建模型 + Causaly/Cortechs.ai + Dragon Copilot）与 Philips（WellSpan 7 年联盟 + Elevate Plus FDA 清关）双向扩展医院 AI 入口；Google DeepMind Co-Clinician 持续迭代；UnitedHealth Optum 年投 15 亿美元。
-- **肿瘤/病理**：Tempus AI 双线扩张——IMS 开源联盟（数字病理标准制定）+ Lens 次代代理平台（肿瘤药物研发），与 19/20 顶级大药企深度捆绑。
-- **影像 AI**：Philips 通过 WellSpan 7 年联盟 + Elevate Plus FDA 清关巩固放射影像 AI 多模态布局；DeepHealth/Gleamer（$2.69 亿）整合效应持续释放。
-- **可穿戴**：Oura Ring 5 上市后付费会员冲向 500 万，2026 年营收目标近 20 亿美元，IPO 进程推进中，估值定价将成临床可穿戴赛道锚点。
-- **行政 AI**：Amperos Health（拒付管理）、Waystar（RCM agentic AI）是 AI 医疗中率先规模化盈利的细分赛道。
+- **平台层**：Microsoft 三线扩张——Dragon Copilot 开放平台（临床）+ Copilot Health（消费者）+ Mayo 定制模型（研究），构建最宽医疗 AI 生态；Philips 深化 WellSpan 7 年联盟；Google 以 Health App + Gemini 深入消费者端。
+- **生命科学 AI**：OpenAI GPT-Rosalind 入场（Amgen/Moderna/Allen Institute），与 Tempus Lens（19/20 大药企）、Insilico Pharma.AI 形成三角竞争，专项模型 vs. 代理平台路线分歧加剧。
+- **肿瘤/病理**：Tempus AI 双线扩张（IMS 开源联盟 + Lens 次代）；Relay Therapeutics Zovegalisib 是 AI 辅助设计进入 Phase 3 的选择性 PI3Kα 抑制剂。
+- **基层医疗 EHR**：Elation Health + Aster 打造代理 AI 原生 EHR，与传统 Epic/Oracle 路线竞争基层医疗入口。
+- **可穿戴**：Oura Ring 5 付费会员迈向 500 万，IPO 进程推进；医疗 AI 风投 Q1 2026 创近年新高（74 亿美元、8 家新独角兽），AI 专项占健康科技总融资 75%。
 
 ### 监管走向
-- **WHO 全球治理介入**：WHO 6 月 2 日发布 AI 健康政策讨论文件，将 AI 证据可靠性纳入政策制定闭环，从国际组织层面确立"AI 治理"优先级，将推动低中收入国家建立本国医疗 AI 监管框架。
-- **FDA 持续清关 + 报销瓶颈并存**：AI 医疗器械累计 1,451 款（放射科 76%，病理 51 款），Philips Elevate Plus 超声 6 月 3 日获 510(k)；报销仅 2 个 CPT I 类代码，制约商业规模化；ARPA-H ADVOCATE 建立临床 AI 代理授权路径范本。
-- **EU AI Act Digital Omnibus**：医疗器械 AI（Annex I）合规期延至 2028 年 8 月，"安全组件"定义缩窄，辅助性 AI 获宽限。
+- **ARPA-H ADVOCATE 联邦级代理授权路径**：6 月进入团队甄选，将成为美国临床代理 AI 监管范本，早期 FDA 介入内嵌于项目结构，AMA 对无医生监督自主心血管 AI 提出安全警告。
+- **Palantir NHS 合同危机——数据治理执行失败案例**：英国议会施压触发 2027 年 2 月退出条款，核心问题是合同承诺与实际数据访问权限不符；对全球大规模公立医疗 AI 采购谈判产生示范效应，"数据访问条款可验证性"将成新采购标准。
+- **FDA 持续清关 + 报销瓶颈并存**：AI 医疗器械累计 1,451 款，报销仅 2 个 CPT I 类代码，制约商业规模化；FDA 实时临床试验（RTCT）评论期延至 6 月 29 日。
+- **EMA-FDA 联合原则 + EMA 2025 年 AI 观测站报告**：1 月联合发布《药物开发良好 AI 实践指导原则》，6 月 EMA 发布 2025 年 AI 观测站报告，指导 2026-2028 欧洲药品监管网络战略落地。
 
 ### 值得持续跟踪的信号
-- **DIOSynVax AI 疫苗 Phase II 设计**：Phase I 通过后，Phase II 保护性免疫终点和规模将决定 AI 疫苗设计能否快速复制至其他病毒家族（流感、埃博拉等）。
-- **Tempus Lens 次代大药企采用深度**：已有 19/20 顶级大药企注册，下一观察点是平台用于哪个研发阶段及产出的 IND 申请数量。
-- **Philips-WellSpan 联合研发内容**：首个此类美国社区医疗系统研发协议，若涉及共同开发影像 AI 产品，将成为设备厂商 + 社区医院联合 AI 开发的范本。
-- **rentosertib 口服 Phase III 启动**：H2 2026 启动后的患者入组速度和首批安全数据是 AI 药物发现赛道最受关注的临床节点。
-- **AI 去技能化量化研究**：目前为调查数据，缺乏纵向临床操作能力下降的实证；若 2026 年底有相关数据发表，将触发医院 AI 部署策略重大调整。
+- **GPT-Rosalind 受控研究产出**：首批开放机构（Amgen/Moderna 等）的实际 IND 申请加速数据是专项生命科学 LLM 价值的最终验证。
+- **ARPA-H ADVOCATE 入选团队名单**：6 月甄选结果将揭示联邦层面对"自主临床代理 AI"的技术偏好与安全边界设定。
+- **Palantir NHS 退出触发条款执行情况**：英国政府是否于 2027 年 2 月实际触发退出，及事后对欧洲公立医疗 AI 采购合同谈判的影响。
+- **Relay Zovegalisib ReDiscover-2 Phase 3 中期数据**：AI 辅助设计的选择性 PI3Kα 抑制剂若 Phase 3 PFS 达终点，将成 AI 药物发现赛道迄今最强临床验证。
+- **GLP-1 乳腺癌多中心前瞻性试验立项**：ASCO 2026 大规模 AI 分析数据（11 万人）后的临床试验设计将确认 AI 驱动大数据分析在预防医学中的转化路径。
+- **rentosertib 口服 Phase III 启动**：H2 2026 患者入组速度和首批安全数据是 AI 药物发现赛道最受关注的近期临床节点。
 ## 抽象搜索特征
 
 ### 机构与人物
