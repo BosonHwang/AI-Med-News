@@ -3,46 +3,45 @@
 ## 领域历史知识摘要
 
 ### 当前阶段判断
-医疗 AI 已进入"规模化部署与合规双重压力期"：代理 AI 在头部 EHR（Epic Agent Factory 投产于 Advocate Health）和公共医疗体系（NHS 50.5 万人 Microsoft 365 Copilot 部署）同步从试点走向规模运营，AI 报销瓶颈被 2026 CPT Category I 代码突破，EU AI Act 高风险合规截止日（2026-08-02）倒逼全球 MedTech 完成治理体系重构，药物发现 AI 则以 rentosertib Phase III 启动和 Tempus 多模态基础模型为节点进入成果验证关键窗口。
+医疗 AI 已进入"规模化验证与合规重置期"：Philips 全球调研（2026-06-09）以量化数据证实 AI 临床时间节省效应（每年 16 个工作日），代理 AI 在 EHR 和公共医疗系统同步投入日常运营，EU AI Act 医疗器械合规截止从 2026 年 8 月延至 2028 年 8 月（Omnibus 协议）给 MedTech 行业释放缓冲空间，AI 药物发现则因 Isomorphic Labs 21 亿美元 B 轮和 FDA RTCT 试点启动进入"资本 + 监管双加速"阶段。
 
 ### 主要趋势（5条）
 
-1. **AI 医疗基础设施走向多年期深度生态绑定**：NHS England 6 月 8 日宣布 50.5 万名医务人员部署 Microsoft 365 Copilot（2026 年 10 月前完成），成为全球医疗史最大单次企业 AI 部署，预计月均夺回 250 万临床工时；此前 Microsoft Dragon Copilot 在 HIMSS 2026 升级为开放平台（日活 10 万+ 临床医生、9 国），Philips-WellSpan 7 年联盟、AHA-West Health 1200 万美元三年期 AI 加速器等长期绑定协议持续涌现，深度生态锁定已成头部玩家标配。
+1. **AI 医疗基础设施走向多年期深度生态绑定**：NHS England 向 50.5 万名医务人员部署 Microsoft 365 Copilot（2026-10 完成），为全球最大单次企业医疗 AI 部署；Mayo Clinic + Microsoft 于 6 月 2 日宣布联合开发医疗专用前沿基础模型（Mayo 所有权，通过 Azure Foundry API 对外开放）；NVIDIA + Foxconn 与台湾医疗中心联合启动 15 亿美元"健康台湾"计划（COMPUTEX 2026），生态绑定已从欧美扩展至亚洲公共医疗系统。
 
-2. **自主 AI 代理从试点走向头部机构日常运营**：Epic Agent Factory 于 6 月 1 日在 Advocate Health 正式投产，85% 的 Epic 客户已使用 AI 功能；ARPA-H ADVOCATE 于 6 月进入联邦级临床代理 AI 授权路径创新团队甄选；Elation Health 收购 Aster 打造基层医疗代理 OS；eClinicalWorks 在 HIMSS 26 推出 AI API Workbench；代理 AI 正从"演示阶段"整体进入头部机构部署阶段。
+2. **自主 AI 代理从试点走向头部机构日常运营，联邦授权路径进入实施**：Epic Agent Factory 在 Advocate Health 投产，ARPA-H ADVOCATE 于 6 月完成创新团队遴选（提供 3 年 FDA 授权路径），Abridge 从环境听写升级为主动上下文助手（整合 UpToDate 诊间循证推荐）；大规模研究（1,800 名临床医生）确认环境 AI 每 8 小时节省 16 分钟文档时间，效益数据从个案走向统计验证。
 
-3. **AI 药物发现加速进入临床验证期，专项基础模型持续迭代**：OpenAI GPT-Rosalind 发布功能升级版（新增代理编码、生物信息学工作流插件），继续向全球受控访问机构开放；Insilico rentosertib Phase III 确认 H2 2026 启动（吸入制剂同期获中国 IND 批准）；Relay Zovegalisib Phase 3 全球入组中（mPFS 11.1 月，FDA 突破性疗法认定）；全球 AI 发现药物 Phase III 管线数量稳定在 15+ 并持续扩大。
+3. **AI 药物发现进入"资本 + 监管双加速"阶段**：Isomorphic Labs 完成 21 亿美元 B 轮（Thrive Capital 领投，含 Alphabet、UK Sovereign AI Fund），首批肿瘤候选药临床试验预计 2026 年底启动；Eli Lilly 落成 LillyPod——全球首台制药 AI 超算（1,016 块 NVIDIA Blackwell Ultra GPU，9,000+ petaflops）；FDA 实时临床试验（RTCT）试点以 AstraZeneca 和 Amgen 药物为 POC，预期缩短 20-40% 试验周期；Insilico rentosertib Phase III H2 2026 入组确认启动。
 
-4. **AI 诊断报销瓶颈开始松动，商业规模化路径趋于清晰**：2026 年 CPT 代码集首次引入 AI 辅助诊断 Category I 代码（含 RVU 价值），覆盖影像、病理、心脏、败血症/卒中等场景，部分解除 AI 医疗器械商业化最大障碍；FDA 清关速率达 2026 年 3 月单月 24 款（约每 31 小时 1 款），累计 1,357 款；Tempus AI 获 FDA 批准 xT CDx 仅肿瘤适应症，成全球首家双路径 CDx 获批实验室。
+4. **AI 临床效益进入量化验证期，部署差距与人员培训成最大阻力**：Philips Future Health Index 2026（10 国 2,000+ 临床医生）以量化数据确认：AI 每年为临床医生节省 16+ 工作日，接诊能力提升（每周多 8 名患者），39% 称 AI 预防了医疗差错；但 70% 指出培训不足是广泛部署的主要障碍，IT 碎片化是次要障碍——表明 AI 技术本身已不是瓶颈，组织能力建设是决定规模化速度的关键变量。
 
-5. **数据信任与合规执行从原则声明走向双向压力**：Palantir NHS 3.3 亿英镑合同因数据治理违约面临议会施压退出（2027 年 2 月触发条款），与 NHS England 同期大规模部署 Microsoft Copilot（合同内含数据训练禁用条款、数据中心锁英国）形成鲜明对比——相同 NHS 场景，治理条款设计决定社会接受度；EU AI Act 高风险合规 8 月截止，Apple Watch 高血压检测 JAMA 研究（灵敏度仅 41%）揭示可穿戴临床声称与实际精度的落差。
+5. **全球监管格局重置：EU 宽限延期，美国加速开绿灯**：EU AI Act Omnibus 临时协议（2026-05-07）将医疗器械高风险 AI 合规截止从 2026-08 延至 2028-08，为 MedTech 行业释放约两年缓冲；与此同时美国持续加速：FDA RTCT 试点降低临床试验周期，CPT Category I AI 代码打通报销通道，ARPA-H ADVOCATE 提供联邦级授权路径——欧美监管节奏正式出现系统性分化。
 
 ### 技术热点
-- **EHR 原生代理平台竞争**：Epic Agent Factory（无代码可视化）、eClinicalWorks AI API Workbench（开发者开放）、Elation-Aster（基层医疗 OS）三条路线并行，代理 AI 嵌入 EHR 成为 2026 年最活跃的技术整合方向。
-- **多模态肿瘤基础模型**：Tempus AI 在 ASCO 2026 发布多模态基础模型结果（跨病理图像 + 基因组 + 临床记录），与 Epic Curiosity 系列代表医学 AI 从单模态向多模态预测的代际升级。
-- **生命科学专项 LLM 持续进化**：GPT-Rosalind 升级版（代理编码 + 生物信息学插件）迭代周期加快，与 Tempus Lens 代理平台路线形成专项模型 vs. 代理平台的路线之争。
-- **可穿戴临床精度争议**：Apple Watch 高血压检测 JAMA 分析（灵敏度 41%）、Oura/Google 积累高血压数据但未达 FDA 门槛，可穿戴"消费级精度 vs. 临床级标准"的界定成为下一个监管焦点。
+- **医疗专用前沿基础模型竞赛**：Mayo Clinic + Microsoft 联合模型（多源临床数据 + Azure 超算）、Tempus 多模态肿瘤模型（病理图像 + 基因组 + 临床记录）、Epic Curiosity 系列（匿名真实 EHR 训练）三路并进，医学 AI 基础模型正快速从通用向高度专科化、多模态演进。
+- **多代理编排平台**：Foxconn CoDoClaw（统一管理乳腺癌筛查/ECG/眼底成像/冠脉分析）、Epic Agent Factory（无代码可视化）、ARPA-H ADVOCATE 监督代理架构，多代理系统协调成为医疗 AI 的下一个核心工程挑战。
+- **AI 药物设计算力基础设施化**：LillyPod（9,000+ petaflops 制药专用超算）标志着 AI 药物发现从云端借用算力转向企业自有专项基础设施，降低大型药企对外部计算资源的依赖。
+- **环境 AI 向主动临床助手演进**：Abridge 整合 UpToDate 循证推荐，环境 AI 产品从"记录工具"升级为"诊间决策辅助"，差异化从准确率转向上下文推理深度。
 
 ### 商业格局
-- **平台层**：Microsoft 再下一城——NHS 50.5 万人 Copilot 部署（2026-10 完成）将成全球最大医疗 AI 合同参考案例，Dragon Copilot 开放平台 + Copilot Health 消费者端 + Mayo 定制模型三线并进，生态宽度无竞争对手。
-- **EHR 代理竞争**：Epic（Agent Factory + Curiosity）vs. 新兴代理 EHR（Elation-Aster）vs. 中型 EHR 开放平台（eClinicalWorks API Workbench），代理 AI 成为 EHR 市场份额争夺的新战场。
-- **肿瘤精准医学**：Tempus AI 以 FDA xT CDx 双路径 + ASCO 多模态模型 + Lens 代理平台构建端到端肿瘤 AI 基础设施；Relay Zovegalisib Phase 3 是 AI 设计药物的最近期临床验证节点。
-- **护理 AI 新赛道**：voize（德国，护士环境 AI，$50M A 轮）于 2026 Q1 进入美国市场，对应护士文档需求的"非医生"细分场景正成为新的融资热点。
-- **医疗 AI 投融资**：Q1 2026 达 74 亿美元（8 家新独角兽），AI 专项占健康科技总融资 75%；大额轮次持续（Abridge $300M、Ambiance $243M、Function Health $300M）。
+- **平台层**：Microsoft 三线并进（NHS Copilot 生态 + Dragon Copilot 开放平台 + Mayo 定制基础模型），Philips 以 Future Health Index 全球品牌影响力持续领先医疗 AI 叙事；NVIDIA 通过 Foxconn 进入亚洲公共医疗市场（台湾 15 亿美元），算力层向医疗终端延伸。
+- **AI 药物发现**：Isomorphic Labs（21 亿美元 B 轮）与 Insilico（rentosertib Phase III）领跑"AI 原生药企"，Eli Lilly LillyPod 代表传统大药企以自建算力基础设施加入竞争，药物发现 AI 格局从初创主导向大型制药企业深度参与转变。
+- **临床代理与听写市场**：Abridge（250+ 医疗系统，KLAS 两连冠）以主动助手升级强化壁垒；voize 完成 5000 万美元 A 轮进入美国护理市场（非医生细分），精神健康 AI（Blossom Health $20M、Jimini Health $17M、The Path $14.3M）成为新融资热点。
+- **医疗 AI 投融资**：Q1 2026 达 74 亿美元（8 家新独角兽），AI 专项占健康科技总融资 75%；2026 全年大额轮次持续（Isomorphic $2.1B、Abridge $300M+ 等）。
 
 ### 监管走向
-- **EU AI Act 高风险合规截止日（2026-08-02）**：距截止不足 60 天，AI 影像诊断软件、临床决策支持 SaMD 被自动归为高风险，需完成双重框架（AI Act + MDR/IVDR）文件，违规罚款最高 3% 全球年营业额；相当比例中小 MedTech 尚未完成合规技术文件，预计将出现合规截止后的集中整改潮。
-- **美国 AI 报销突破**：2026 CPT 代码集首次纳入 AI 辅助诊断 Category I 代码（含 RVU），从根本上改变"FDA 清关但无法收费"的商业化障碍，AI 医疗器械进入"可清关 + 可收费"双轮驱动新阶段。
-- **ARPA-H ADVOCATE 联邦授权路径**：6 月甄选团队中，将成为美国首个系统化临床代理 AI 授权范本（3 年 FDA 授权路径），AMA 对无监督心血管 AI 的安全警告持续存在。
-- **Palantir NHS 数据治理案例**：英国议会压力持续，2027 年 2 月退出条款成为全球公立医疗 AI 采购的反面教材，"可验证数据访问权限"将成标准合同条款。
+- **EU AI Act 医疗器械合规重置（最新）**：Omnibus 临时协议（2026-05-07）将内嵌于医疗器械的高风险 AI 合规截止延至 2028-08-02（独立 Annex III 系统延至 2027-12-02），正式文本预计 2026-08-02 前通过；但 AI 素养义务（Article 4）维持 2026-08-02 截止不变——这一延期从根本上改变了此前知识库中的"60 天合规倒计时"判断，行业整体压力降低，但 Article 4 培训合规依然迫切。
+- **美国 AI 报销 + 授权双通道**：2026 CPT AI 代码打通报销，ARPA-H ADVOCATE 提供 3 年 FDA 授权路径，FDA RTCT 缩短临床验证时间，美国正构建完整的"发现→验证→清关→报销"AI 医疗产品化链条。
+- **Mount Sinai 全球政策碎片化研究**：240 项政策分析（2016-2025）揭示医疗 AI 监管高度碎片化，无统一框架——提示跨国医疗 AI 公司的合规复杂度将持续上升。
 
 ### 值得持续跟踪的信号
-- **NHS Copilot 部署实际节省数据**：50.5 万人规模从 7 月开始分波段上线，实际临床工时节省与预期（1 小时 40 分/天）的差距将成全球最大的医疗 AI 效益验证实验。
-- **EU AI Act 8 月合规截止后执法态势**：首批不合规企业被执法案例将设定整个欧洲 MedTech AI 监管的实际执行强度。
-- **Epic Agent Factory 规模扩张速度**：Advocate Health 试点后的第二、三批头部医疗系统上线节奏，将验证无代码代理 EHR 的可复制性。
-- **rentosertib Phase III 入组速度与首批安全数据**：H2 2026 患者入组启动后，首批数据是 AI 药物发现赛道 2026 年最受关注的临床节点。
-- **Relay Zovegalisib ReDiscover-2 Phase 3 中期分析**：AI 辅助设计的选择性 PI3Kα 抑制剂若 Phase 3 PFS 达终点，将成 AI 药物发现赛道迄今最强临床验证。
-- **2026 CPT AI 代码实际报销落地情况**：新代码从生效到医保实际覆盖的执行差距，及 CMS 2027 年是否扩大 AI 诊断报销范围。
+- **NHS Copilot 实际效益数据（7 月起分波段上线）**：50.5 万用户规模是全球最大医疗 AI 效益验证实验，实际数据将与 Philips 全球调研（16 工作日/年）形成交叉验证。
+- **EU AI Act Article 4 执行（2026-08-02 截止）**：延期后首个不变的合规节点，70% 临床医生反映培训不足，执法强度将揭示 EU 对医疗 AI 合规的实际立场。
+- **EU AI Act Omnibus 正式文本通过时间**：若在 2026-08-02 前未完成立法程序，将产生短暂的法律真空，引发 MedTech 市场不确定性。
+- **Isomorphic Labs 首批肿瘤候选药临床试验启动**：2026 年底目标，启动后将成为 AI 原生大额融资的最近期临床验证节点。
+- **rentosertib Phase III 入组速度与 LillyPod 首批分子**：两者将分别代表 AI 独立药企和大型制药企业 AI 战略的最近期临床节点。
+- **ARPA-H ADVOCATE 入选团队首年进展**：联邦级代理 AI 授权路径的实际推进速度，将定义美国临床 AI 代理的监管标杆。
+- **Mayo Clinic 前沿 AI 模型发布时间线**：与 Microsoft 合作开发的医疗专用模型何时通过 Azure Foundry 对外开放，以及首批使用机构的临床结果。
 ## 抽象搜索特征
 
 ### 机构与人物
